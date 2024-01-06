@@ -34,6 +34,7 @@ nav {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin: 0 200px;
 }
 
 nav ul{
@@ -51,3 +52,21 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+
+/* header related styles  */
+
+.header{
+    background-color: #fff8f3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner img{
+    width: 500px;
+}
+
