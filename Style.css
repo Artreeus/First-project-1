@@ -117,6 +117,11 @@ nav a {
 
 /* main section style  */
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .about {
   padding: 130px;
   border-radius: 10px;
@@ -127,7 +132,25 @@ nav a {
 
 .section-description {
   color: var(--Dark-03, #757575);
-  font-size: 18px; 
+  font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  padding-top: 20px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 35px;
+}
+
+.about-info-container .about-info .info-title {
+  color: #757575;
+}
+
+.about .about-info-container .about-info p{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 12px;
 }
