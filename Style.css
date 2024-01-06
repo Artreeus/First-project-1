@@ -178,3 +178,10 @@ main {
     text-align: center;
 
 }
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+}
